@@ -4,8 +4,6 @@
     <div class="container">
 	    <ul class="nav">
 			
-          <li class="active" ng-show="currentPath == '/'"><a href="#/home">About</a></li>
-          <li  ng-hide="currentPath == '/'"><a href="#/home">About</a></li>
           <li ng-hide="currentPath == '/canvas'"><a href="#/canvas">Canvas</a></li>
           <li class="active" ng-show="currentPath == '/canvas'"><a href="#/canvas">Canvas</a></li>
           <li><a ng-click="showExport()" ng-show="currentPath == '/canvas'">Export PDF...</a></li>
